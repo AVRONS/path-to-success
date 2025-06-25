@@ -1,6 +1,33 @@
+/* CSS by Aaron Bell */
+
+
+
+
 /* Imported Fonts*/
 
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+
+
+
+
+
+/* CSS Reset */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+
+/* Root Variables*/
+
+  
+
+
 
 
 h1{
@@ -29,6 +56,8 @@ background-color: #7396f8;
 font-family: Inter;
 
 
+
+
 }
 
 
@@ -39,7 +68,7 @@ font-family: Inter;
     text-align: center;
     padding: 25px;
     border-radius: 5px;
-    max-width: 550px;
+    max-width: 450px;
    justify-content: center;
    margin: 0 auto;
   }
@@ -53,8 +82,8 @@ nav.menu{
   border-radius: 10px;
   box-shadow: 0 4px 6px;
   text-align: center;
-  max-width: 550px;
-  margin: 20px; auto;
+  max-width: 450px;
+  margin: 20px auto;
   margin: 0 auto;
 
 }
@@ -73,18 +102,225 @@ nav.menu a{
   font-weight: bold;
   width: 50%;
 
+}
 
+
+
+.services{
+  font-family: Kavoon;
+  font-size: 2.5em;
+  margin-top: -100px;
+  color: #ffffff;
+
+  
+
+}
+
+
+.coach{
+  color: #E9BB57;
+  margin-top: -2px;
+}
+
+.purple-bg{
+  background-color: #484FB7;
+  padding-top: 110px;
+  max-width: 500px;
+  margin: 3px auto;
+  min-height: 350px;
+  border-radius: 10px;
+  
+
+}
+
+.purple-bg2{
+  background-color: #484FB7;
+  padding-top: 110px;
+  max-width: 500px;
+  margin: 3px auto;
+ height: 325px;
+  border-radius: 10px;
+}
+
+.white-box{
+  background-color: #ffffff;
+  margin-top: 50px;
+  padding-bottom: 309px;
+  max-width: 450px;
+  align-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  height: 20px;
+ 
+  
+}
+
+.white-box2{
+
+  background-color: #ffffff;
+  margin-top: 5px;
+  padding-bottom: 300px;
+  max-width: 450px;
+  align-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+    position: relative;
+  top: -90px; 
+  height: 10px;
+}
+ /* global  text above  box*/
+.white-box3{
+ background-color: #ffffff;
+  margin-top: 5px;
+  padding-bottom: 309px;
+  max-width: 450px;
+  align-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-height: 400px;
+  
+}
+  
+/* global  text above  box*/
+.purple-bg3{
+ background-color: #484FB7;
+  padding-top: 30px;
+  max-width: 500px;
+  margin: 3px auto;
+  min-height: 350px;
+  border-radius: 10px;
+  
+}
+  
+/* H2 global*/
+section h2:first-of-type {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: -80px;
+  
+}
+
+/* H3 Global */
+section h3:first-of-type{
+  color: #E9BB57;
+  margin-top: -0.5px;
 
 
 }
 
 
 
+/* Paragraph inside box global */
+section div div > p{
+  font-family: Inter;
+  color: black ;
+  margin-bottom: 1rem;
+}
 
 
-/* Css Rest*/
 
 
-/* Root Variables*/
+/* global image box */
+section p > img {
+  width: 80px;
+  height: 80px;
+  margin-right: 2.9rem;
+  vertical-align: middle;
+  margin-top: 3rem;
+}
 
-/*Global Styles (mobile first/small)*/
+
+/* h4 global*/
+section h4 {
+  color: #484FB7;
+  font-weight: bold;
+  font-size:20px;
+  margin-bottom: rem;
+
+}
+
+
+.red-bg{
+  background-color: lightcoral;
+  padding-top: 110px;
+  max-width: 500px;
+  margin: 3px auto;
+  min-height: 350px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  
+}
+
+
+section > div > ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  
+}
+
+section > div > ul > li {
+  color: black;
+  padding: 1rem;
+  border-radius: 20px;
+  width: 220px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  
+}
+
+
+/* Choose us Box colors global */
+section > div > ul > li:nth-child(1){
+background-color: #4CA7C0;
+}
+
+section > div > ul > li:nth-child(2){
+background-color: #7396f8;
+
+}
+
+section > div > ul > li:nth-child(3){
+background-color: #E9BB57;
+
+}
+
+section > div > ul > li:nth-child(4){
+background-color: #ffffff;
+
+}
+
+
+
+/* Global style of 2 row tables*/
+section > h3 + div {
+  background-color: #484FB7; /* purple background */
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
