@@ -302,16 +302,35 @@ background-color: #ffffff;
 
 
 
-/* Global style of 2 row tables*/
-section > h3 + div {
-  background-color: #484FB7; /* purple background */
-  padding: 2rem;
-  border-radius: 12px;
-  max-width: 800px;
-  margin: 1.5rem auto;
-  box-sizing: border-box;
-box-sizing: border-box;
+.individual-pricing{
+  width: 70%;
+  align-content: center;
+  padding-left: 4rem;
+  height: 4px;
+  padding: 1.5rem 1rem;
 }
+
+/* Style for table header */
+.individual-pricing thead tr:nth-child(3) {
+background-color: #E9BB57;
+color: black;
+
+}
+
+.individual-pricing tbody tr{
+  background-color: #ffffff;
+  color: black
+}
+
+
+
+/* Global style of 2 row tables*/
+
+
+
+
+
+
 
 
 
