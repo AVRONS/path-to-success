@@ -314,14 +314,22 @@ background-color: #ffffff;
 .individual-pricing thead tr:nth-child(3) {
 background-color: #E9BB57;
 color: black;
+height: 15px;
 
 }
 
 .individual-pricing tbody tr{
   background-color: #ffffff;
-  color: black
+  color: black;
+  height: 50px;;
 }
 
+
+.button-1{
+  background-color: #ffffff;
+  color: black;
+  width: 500px;
+}
 
 
 /* Global style of 2 row tables*/
